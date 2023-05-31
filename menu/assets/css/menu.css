@@ -1,0 +1,148 @@
+#menu{
+    padding: 20px;
+}
+
+.card{
+    padding: 10px;
+    box-shadow: 0 2px 9px 1px #ddd;
+    border: none !important;
+    border-radius: 20px !important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding: 10px;
+    float: left;
+}
+
+.col-12{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+
+.col{
+    display: flex;
+    flex-direction: row;
+}
+
+.col-2{
+    margin-bottom: 20px !important;
+}
+
+li{
+    width: 120px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 150ms ease-in-out;
+}
+
+li:hover{
+    transition: all 150ms ease-in-out;
+    transform: scale(1.1);
+}
+
+.navbar-toggler{
+    border-radius: 5px !important;
+    width: 100% !important;
+    transition: all 250ms ease-in-out;
+}
+
+.navbar-toggler.active{
+    background-color: #13435F;
+}
+
+.navbar-toggler.active .modulo_icon{
+    background-color: #13435F;
+}
+
+.navbar-toggler.active .modulo{
+    color: #fff;
+}
+
+.navbar-toggler{
+    text-decoration: none;
+}
+
+.modulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 15px;
+    font-weight: 600;   
+}
+
+.modulo_icon{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3C85B1;
+    color: #fff !important;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.logo-img{
+    width: 150px !important;
+}
+
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.window-container{
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0px 4px 5px #ddd;
+}
+
+.janela{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.janela-item{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+
+    font-size: 14px;
+    margin-right: 0px !important;
+    cursor: pointer;
+
+    padding-bottom: 10px;
+}
+
+.janela-item a{
+    color: #000;
+    text-decoration: none;
+}
+
+.janela-item i{
+    margin-right: 10px;
+}
+
+.janela-item:hover{
+    transform: translateX(7px);
+}
